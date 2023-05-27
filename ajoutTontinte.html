@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ajout d'une tontine</title>
+	<style type="text/css">
+		body{
+			background:rgb(240,240,240);
+			padding:0;
+			margin:0;
+			font-family: calibri;
+		}
+		h1{
+			padding:5px;
+			margin:0;
+			background: skyblue;
+		}
+		form{
+			margin:auto;
+			width:60%;
+			margin-top:30px;
+
+
+		}
+		form label, form input, form textarea{
+			display:inline-block;
+			vertical-align: center;
+		}
+		form span{
+			display:block;
+			margin-top:10px;
+		}
+		form label{
+			width:150px;
+		}
+		form input{
+			height:30px;
+		}
+		form input, form textarea{
+			width:70%;border:0;
+			background:transparent;
+			border-bottom:2px solid skyblue;
+			border-left:1px solid gray;
+		}
+		form button{
+			border:0;
+			background:skyblue;
+			padding:8px 15px;
+			font-weight:bold;
+			cursor:pointer;
+		}
+		form button:hover{
+			color:white;text-shadow: 0 0 2px black;
+			background:blue;
+		}
+		form div{
+			text-align:center;
+			margin-top:10px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Ajout d'une tontine</h1>
+	<form>
+		<span>
+			<label>Nom :</label>
+			<input type="text" name="nom"/>
+		</span>
+		<span>
+			<label>Date de création :</label>
+			<input type="date" name="date"/>
+		</span>
+		<span>
+			<label>Slogan :</label>
+			<input type="text" name="slogan"/>
+		</span>
+		<span>
+			<label>Règlement :</label>
+			<textarea></textarea>
+		</span>
+		<div>
+			<button type="submit">Enregistrer</button>
+		</div>
+	</form>
+</body>
+</html>
